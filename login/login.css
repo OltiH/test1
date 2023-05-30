@@ -1,0 +1,95 @@
+body{
+    font-family: 'Open Sans' sans-serif;
+    background-color: rgb(187, 187, 187);
+    padding: 0;
+    margin: 0;
+    background-image: url(https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1-);
+   background-size: cover;
+}
+header{
+    background-color: rgb(4, 4, 68);
+    color: aliceblue;
+    padding-top: 20px;
+    min-height: 85px;
+    border-bottom: 1px dotted #DDDDDD;
+margin-top: -1.8%;
+
+}
+header a{
+    color:#DDDDDD;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 130%;
+    font-weight: bold;
+
+}
+header ul{
+    margin: 0;
+    padding: 0;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 25px 0 20px;
+}
+.divheader{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+header #divH1{
+    min-height: 60px;
+    width: 20px;
+    float: left;
+}
+header nav{
+    float: right;
+    margin-top:50px;
+    margin-bottom: 2%;
+    margin-right: 3%;
+}
+main{
+    position: relative;
+    background-color: rgb(239, 217, 137);
+    left: 45%;
+    right: 60%;
+    width: 250px;
+    height: 200px;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+#mainForm input[type="text"],
+input[type="password"]{
+    margin-top: 5px;
+    /*border: none;*/
+    border-radius: 5px;
+    height: 20px;
+}
+main input{
+    display: block;
+    margin: auto auto ;
+}
+main label{
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#submit{
+    width: 60px;
+    height: 25px;
+    background-color: rgb(245, 190, 109);
+    margin-top: 10px;
+    padding:0;
+    border-radius: 5px;
+}
+main input :last-child{
+    display: inline;
+    margin-left: 20px;
+    margin: 10px;
+}
+
+
